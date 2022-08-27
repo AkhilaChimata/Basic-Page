@@ -1,12 +1,43 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            
-        </title>
-
-    </head>
-    <body>
-
-    </body>
-
+	<head>
+		<title>
+			Basic form design using HTML
+		</title>
+	</head>
+	<body>
+		<h1>Geeksforgeeks</h1>
+		<h3> Basic form using HTML</h3>
+		<form action="#">
+			<fieldset>
+				<legend> Personal Details</legend>
+				<p>
+				<label> First name:<input name="firstName"/></label>
+				</p>
+				<p>
+				<label> Last name: <input name="lastName"/></label>
+				</p>
+				<p>
+					Gender:
+					<label><input type="radio" name="gender"
+					value="male" /> Male</label>
+					<label><input type="radio" name="gender"
+					value="female" /> Female</label>
+				</p>
+				<p>
+					<label> Email:<input type="email" name="email"/></label>
+				</p>
+				<p>
+					<label> Date of Birth:<input type="date" name="birthdate"/> </label>
+				</p>
+				<p>
+				<label>Address :
+					<br />
+					<textarea name="address" cols="30"
+						rows="3"></textarea>
+				</label>
+			</p>
+			</fieldset>
+		</form>
+	</body>
 </html>
